@@ -1,0 +1,240 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fon{
+    width: 1920px;
+    height: 2153px;
+    background-image: url("Основной-фон.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.block{
+    height: 2153px;
+    width: 1280px;
+    margin: auto;
+    background-color: #fff;
+}
+.block1{
+    width: 1280px;
+    height: 200px;
+    background-color: rgba(255, 23, 79, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+.Logo{
+    padding-top: 14px;
+    padding-left: 70px;
+    height: 173px;
+    width: 200px;
+}
+.Menu{
+    height: 173px;
+    width: 830px;
+    margin-left: 100px;
+}
+li{
+    display: inline;
+    margin-right: 100px;
+}
+ul{
+    margin-top: 80px;
+    margin-left: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.lip{
+position: relative;
+bottom: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.block2{
+    width: 1280px;
+    height: 500px;
+}
+.block3{
+    width: 1210px;
+    height: 100px;
+    padding-left: 70px;
+    font-size: 36px;
+    margin-top: 0;
+    border-bottom: 1px solid #797070;
+}
+hr{
+    color: #8F8E8E;
+    margin: 0;
+}
+.block4{
+    width: 1210px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33%;
+    padding-left: 70px;
+    border-bottom: 1px solid #797070;
+}
+.tovar{
+    margin-top: 50px;
+    width: 310px;
+    height: 450px;
+    margin-right: 100px;
+}
+.tovarimg{
+    border: 1px solid;
+    border-color: #8F8E8E;
+    width: 310px;
+    height: 225px;
+}
+.tovartext{
+    width: 310px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tovarname{
+    height: 50px;
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.Articul{
+    height: 30px;
+    font-size: 13px;
+    color: #797070;
+    margin: 0;
+}
+.cena{
+    height: 32px;
+    font-size: 20px;
+    margin: 0;
+}
+.buy{
+    width: 166px;
+    height: 55px;
+    background-color: #BEFFB9;
+    margin-left: 72px;
+    border: none;
+}
+.block5{
+    width: 1210px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33%;
+    padding-left: 70px;
+    border-bottom: 1px solid #797070;
+}
+.block6{
+    padding-left: 70px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+}
+.block7{
+    height: 250px;
+    background-color: rgba(255, 23, 79, 0.5);
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.text3{
+    padding-top: 32px;
+    margin: 0;
+}
+.text6{
+    padding-top: 32px;
+    margin: 0;
+}
+.podblock{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.LogoFooter{
+    width: 192px;
+    height: 173px;
+}
+.nomer{
+    width: 192px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.nomertext{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.pochta{
+    width: 192px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.pochtatext{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.MenuFooter{
+    width: 650px;
+    padding-top: 50px;
+}
+.sm{
+    padding-top: 105px;
+}
+.slideshow-conteiner{
+    max-width: 1280px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(255, 23, 79, 0.5);
+}
+.FonText{
+    color: white;
+    font-size: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    text-align: center;
+    bottom: 170px;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+@keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}

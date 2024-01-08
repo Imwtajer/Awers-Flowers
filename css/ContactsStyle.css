@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+.Fon{
+    width: 1920px;
+    height: 1300px;
+    background-image: url("О-нас-фон.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.block{
+    width: 1280px;
+    height: 1300px;
+    background-color: #FFF;
+    margin: auto;
+}
+.block1{
+    width: 1280px;
+    height: 200px;
+    background-color: rgba(255, 23, 79, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+.Logo{
+    padding-top: 14px;
+    padding-left: 70px;
+    height: 173px;
+    width: 200px;
+}
+.Menu{
+    height: 173px;
+    width: 830px;
+    margin-left: 100px;
+}
+li{
+    display: inline;
+    margin-right: 100px;
+}
+ul{
+    margin-top: 80px;
+    margin-left: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.lip{
+position: relative;
+bottom: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.block7{
+    height: 250px;
+    background-color: rgba(255, 23, 79, 0.5);
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.podblock{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.LogoFooter{
+    width: 192px;
+    height: 173px;
+}
+.nomer{
+    width: 192px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.nomertext{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.pochta{
+    width: 192px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.pochtatext{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+.MenuFooter{
+    width: 650px;
+    padding-top: 50px;
+}
+.sm{
+    padding-top: 105px;
+}
+.block2{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    margin-bottom: 0;
+}
+.textblock1{
+    height: 150px;
+    width: 1130px;
+}
+.text1{
+    font-size: 24px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 11px;
+}
+.text2{
+    font-size: 16px;
+    text-align: left;
+    color: #595959;
+    margin-top: 29px;
+    margin-bottom: 28px;
+}
+.textblock2{
+    height: 200px;
+    width: 1130px;
+}
+.text3{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.text4{
+    font-size: 16px;
+    color: #595959;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.spisok{
+    width: 1130px;
+    height: 130px;
+    margin-top: 0;
+}
+.poli{
+    font-size: 16px;
+    color: #595959;
+    display: block;
+    margin-bottom: 10px;
+    display: list-item;
+}
+.ulip{
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 130px;
+    list-style-type: disc;
+}
+.textblock3{
+    width: 1130px;
+    height: 100px;
+}
+.text5{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.text6{
+    font-size: 17px;
+    color: #595959;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.block3{
+    height: 400px;
+    padding-left: 70px;
+    margin-top: 0   ;
+}
+.text7{
+    font-size: 24px;
+    width: 1130px;
+    padding-top: 26px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.textblock4{
+    height: 75px;
+}
